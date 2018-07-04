@@ -6,9 +6,6 @@
 
   Base setup
 
-  Have an opensimulator archive (distribution zipfile) handy. If you connect
-  to OsGrid you can use the one on their download page https://www.osgrid.org
-
 $ git clone https://github.com/lickx/isthmus.git 
 $ cd isthmus/bin
 $ ./siminit
@@ -16,7 +13,12 @@ $ ./siminit
   (Follow instructions on screen)
   If you skipped the installation of the simulator software, this can be done:
 
-$ ./siminstall ~/Downloads/opensimulator-0.9.0.zip
+  !! IMPORTANT
+  This will only work with either the lickx or nani branch that can be found
+  on https://github.com/lickx/opensim
+  A standard OpenSim distro will NOT work!
+
+$ ./siminstall ~/Downloads/opensim-nani-2018-07-02_adcb3d167c.zip
 
 ------------------------------------------------------------------------------
 
